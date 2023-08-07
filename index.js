@@ -3,7 +3,7 @@ const express = require('express');
 const cors = require('cors');
 
 const token = '6081196761:AAHTUAfSnOG9PyLWh7kt46lZsnsbWY_IjiI';
-const webAppUrl = 'https://64d0e5dd2ca857712ea965f8--eloquent-beignet-d6f165.netlify.app/';
+const webAppUrl = 'https://eloquent-beignet-d6f165.netlify.app/';
 
 const bot = new TelegramBot(token, {polling: true});
 const app = express();
